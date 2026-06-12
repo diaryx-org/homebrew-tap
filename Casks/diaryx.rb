@@ -1,12 +1,12 @@
 cask "diaryx" do
-  version "1.6.0"
+  version "1.6.1"
 
   if Hardware::CPU.intel?
-    sha256 "14adf89d4bd9f7ca9dedde09e8f85c3e732a5992636866ff3430cd6fa86627c2"
-    url "https://github.com/diaryx-org/diaryx/releases/download/v#{version}/Diaryx_1.6.0_x64.dmg"
+    sha256 "bb10821c2080baa5d70467e3832fe2b087a14492fac6f9dbe1f0ed0e4aa49544"
+    url "https://github.com/diaryx-org/diaryx/releases/download/v#{version}/Diaryx_1.6.1_x64.dmg"
   else
-    sha256 "207ef015bd794856732a9e9aca0282973e650037405e8dc7721cf2a55b46a231"
-    url "https://github.com/diaryx-org/diaryx/releases/download/v#{version}/Diaryx_1.6.0_aarch64.dmg"
+    sha256 "4b365d586592caf755ca180653d7533517401c7314c78b3b208e2b0f779da426"
+    url "https://github.com/diaryx-org/diaryx/releases/download/v#{version}/Diaryx_1.6.1_aarch64.dmg"
   end
 
   name "Diaryx"
