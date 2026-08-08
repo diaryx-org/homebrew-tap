@@ -1,28 +1,28 @@
 class Twig < Formula
   desc "Parse, query, edit, and losslessly round-trip Djot, Markdown, HTML, and XML documents"
   homepage "https://github.com/diaryx-org/twig"
-  version "2.7.1"
+  version "2.7.2"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/diaryx-org/twig/releases/download/v2.7.1/twig-macos-arm64.tar.gz"
-      sha256 "755be15e6276afc4182304e2d1f639f99cc234042ced82f434ec18e5cfd1c733"
+      url "https://github.com/diaryx-org/twig/releases/download/v2.7.2/twig-macos-arm64.tar.gz"
+      sha256 "c33dc9203d49442290a79a1f18f81606712605590a2928737a560a7f5b595165"
     end
     on_intel do
-      url "https://github.com/diaryx-org/twig/releases/download/v2.7.1/twig-macos-x86_64.tar.gz"
-      sha256 "b3ff05a479ea7ea07725430e058c66b3abded7bd63c52dec7b4bac92d2387a31"
+      url "https://github.com/diaryx-org/twig/releases/download/v2.7.2/twig-macos-x86_64.tar.gz"
+      sha256 "2449413604da3e33081f226b32ca9649da3834f07a8d00c4fc3d30eae827802e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/diaryx-org/twig/releases/download/v2.7.1/twig-linux-aarch64.tar.gz"
-      sha256 "6879f3c010954b6f3450cb87b19e47b447866ae1260a6111ef8c8919ed1db280"
+      url "https://github.com/diaryx-org/twig/releases/download/v2.7.2/twig-linux-aarch64.tar.gz"
+      sha256 "059aae07d3d41cd5b466f1752ee36d5913ca4401be867b782b949a95741edf82"
     end
     on_intel do
-      url "https://github.com/diaryx-org/twig/releases/download/v2.7.1/twig-linux-x86_64.tar.gz"
-      sha256 "026a7f5e12ceab9920e92c58d885efc15ebe0ee7f813aab825d1732edbea3234"
+      url "https://github.com/diaryx-org/twig/releases/download/v2.7.2/twig-linux-x86_64.tar.gz"
+      sha256 "dc3672d631d4105889a1ceaec9bcffe60a82ad2f7fec7d9a1c0c346b5e2ac2bd"
     end
   end
 
