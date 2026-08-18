@@ -1,28 +1,28 @@
 class Fig < Formula
   desc "Parse, edit, and convert config files while preserving comments. Supports JSON, YAML, TOML, and more."
   homepage "https://github.com/diaryx-org/fig"
-  version "3.5.2"
+  version "3.5.4"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/diaryx-org/fig/releases/download/cli/v3.5.2/fig-macos-arm64.tar.gz"
-      sha256 "04f47f8e799ae9ef914c26aa40004645e660f4c9a4001ced8628be9ca7987a6e"
+      url "https://github.com/diaryx-org/fig/releases/download/cli/v3.5.4/fig-macos-arm64.tar.gz"
+      sha256 "a9d0fe2e2b8a4f78ec90e07cba12b1f23b95c719eecf78ade6dc267a1523efb7"
     end
     on_intel do
-      url "https://github.com/diaryx-org/fig/releases/download/cli/v3.5.2/fig-macos-x86_64.tar.gz"
-      sha256 "a4ca7df62e348e1e7514688e18ac722f81cabdc234d16a59059aa55d6f813845"
+      url "https://github.com/diaryx-org/fig/releases/download/cli/v3.5.4/fig-macos-x86_64.tar.gz"
+      sha256 "b4464287d717aad0dca21ff7ca7dadd11f80803219ad5934ff7e4d38f47d6949"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/diaryx-org/fig/releases/download/cli/v3.5.2/fig-linux-aarch64.tar.gz"
-      sha256 "2c0866970976d307b48d9db0704b37746c44cac7758f4b0ae22df6e2a49b5ce4"
+      url "https://github.com/diaryx-org/fig/releases/download/cli/v3.5.4/fig-linux-aarch64.tar.gz"
+      sha256 "d0951bd0994cfb4a0d2b6ccaac2f092b39db26fd1728beb7529ad9d2e516871f"
     end
     on_intel do
-      url "https://github.com/diaryx-org/fig/releases/download/cli/v3.5.2/fig-linux-x86_64.tar.gz"
-      sha256 "4da6666ec6b4f945350b4ca6a1f6799b2ed82ff12eea80d4387e281b783bbdc0"
+      url "https://github.com/diaryx-org/fig/releases/download/cli/v3.5.4/fig-linux-x86_64.tar.gz"
+      sha256 "5d36c46fb38337a8830cc7f158d771605e8adf3b63c0a8b2ba2efcdd6f237166"
     end
   end
 
