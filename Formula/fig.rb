@@ -7,22 +7,22 @@ class Fig < Formula
   on_macos do
     on_arm do
       url "https://github.com/diaryx-org/fig/releases/download/cli/v4.0.0/fig-macos-arm64.tar.gz"
-      sha256 "7799ad331dc727ef85313a4c441565dce3c0fcf54bb75b5bde9717772f727724"
+      sha256 "4952cb43cda0af1169961b84b2ef6d101f61402ad82e5dbfb71842b84bf938c3"
     end
     on_intel do
       url "https://github.com/diaryx-org/fig/releases/download/cli/v4.0.0/fig-macos-x86_64.tar.gz"
-      sha256 "3772814cadc3312ede3e0d800dd7adaf4c4427ab13ecd1922a6b5eeb407ab05c"
+      sha256 "b74dfdff01ace19cc5ed9d44f352f323250569d5a78fdbcfc4d103b5be4f51da"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/diaryx-org/fig/releases/download/cli/v4.0.0/fig-linux-aarch64.tar.gz"
-      sha256 "1620a5a35faf06afdb825cef29d8b09df43f1e885bab634a42459f57627ecc6c"
+      sha256 "48947a43fa37a6440d12926a9346044ea55a2f8acbaeea71299faebd56d4af7b"
     end
     on_intel do
       url "https://github.com/diaryx-org/fig/releases/download/cli/v4.0.0/fig-linux-x86_64.tar.gz"
-      sha256 "3f2fa7ef0004ab0c666eb54fce4e3c41eba4331cd50fe72d334389a9e6adf28d"
+      sha256 "2f6859819003ab50f0d7c5cf3f6c272d29b3b0207e5a7d08231637cdf7a03baf"
     end
   end
 
