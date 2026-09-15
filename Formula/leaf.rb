@@ -1,28 +1,28 @@
 class Leaf < Formula
   desc "Caret-based rich-text terminal editor for Markdown, Djot, HTML, and XML"
   homepage "https://github.com/diaryx-org/leaf"
-  version "0.1.15"
+  version "0.1.16"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/diaryx-org/leaf/releases/download/v0.1.15/leaf-macos-arm64.tar.gz"
-      sha256 "6d1ba4c083c48562a6023157ebe41fe2aae06ea84f5fbe6c5d40fde768fb5027"
+      url "https://github.com/diaryx-org/leaf/releases/download/v0.1.16/leaf-macos-arm64.tar.gz"
+      sha256 "d6fa51d3e46ad005569fcd27db18937e433e4b46014a2f4f5cf554f44eccdea6"
     end
     on_intel do
-      url "https://github.com/diaryx-org/leaf/releases/download/v0.1.15/leaf-macos-x86_64.tar.gz"
-      sha256 "2ef643ed261dc018295e2d6eca78cae89f4ce3bc08e87f61b4c7356ef3c54a92"
+      url "https://github.com/diaryx-org/leaf/releases/download/v0.1.16/leaf-macos-x86_64.tar.gz"
+      sha256 "1278da8c8bacd43bdc32f73945733b332a43805c4c4404d9f61c54256ac2413b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/diaryx-org/leaf/releases/download/v0.1.15/leaf-linux-aarch64.tar.gz"
-      sha256 "506b5460fa5fce1e2bcdf8fd09067e1f8c8704a477ed39e03ab12fdeba3ec106"
+      url "https://github.com/diaryx-org/leaf/releases/download/v0.1.16/leaf-linux-aarch64.tar.gz"
+      sha256 "714fcbede6b49812a230edba7d1a51639933ac3eb17b58803018a4f2e211626d"
     end
     on_intel do
-      url "https://github.com/diaryx-org/leaf/releases/download/v0.1.15/leaf-linux-x86_64.tar.gz"
-      sha256 "255577acbdfae8755cce2ff612f61482b46b3a4fc5a4615f89776201bc8025cf"
+      url "https://github.com/diaryx-org/leaf/releases/download/v0.1.16/leaf-linux-x86_64.tar.gz"
+      sha256 "3219a8bc89faae813ba48dcc540e45731bb5db03f04462f12b9ec9c9da5b88fc"
     end
   end
 
