@@ -1,28 +1,28 @@
 class Prov < Formula
   desc "Command-line companion for the prov self-describing workspace library"
   homepage "https://github.com/diaryx-org/prov"
-  version "0.14.0"
+  version "0.15.0"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/diaryx-org/prov/releases/download/v0.14.0/prov-macos-arm64.tar.gz"
-      sha256 "5a4941b970051c04030aa59a3014bb45282b1cc0bc5713238adacb327d548215"
+      url "https://github.com/diaryx-org/prov/releases/download/v0.15.0/prov-macos-arm64.tar.gz"
+      sha256 "0e71903ef527f3377a6bc915e3adfb2e5629a0cc99b7da819acd9df4be344dd3"
     end
     on_intel do
-      url "https://github.com/diaryx-org/prov/releases/download/v0.14.0/prov-macos-x86_64.tar.gz"
-      sha256 "1d261dc2d54ad247027e4cfed85acac760c40cf54ce23761f15d72a4c189ca7f"
+      url "https://github.com/diaryx-org/prov/releases/download/v0.15.0/prov-macos-x86_64.tar.gz"
+      sha256 "fabc547fa7d0e16d8ced325dc499d7e39ead2ab542aad007a3cd81a2ecbfa91e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/diaryx-org/prov/releases/download/v0.14.0/prov-linux-aarch64.tar.gz"
-      sha256 "671783c1ef474e10aa25a9a9310411908953402865da79863c7f76595d61ccab"
+      url "https://github.com/diaryx-org/prov/releases/download/v0.15.0/prov-linux-aarch64.tar.gz"
+      sha256 "3ebf4ceef891dfb66eaf65321f6110b78311ac8a23219fd7d9869d68af88a1c1"
     end
     on_intel do
-      url "https://github.com/diaryx-org/prov/releases/download/v0.14.0/prov-linux-x86_64.tar.gz"
-      sha256 "2e95ab4299dd28d4256f834f1cbadafb0ea26f3831032c5e8107ae1c2eb0f04c"
+      url "https://github.com/diaryx-org/prov/releases/download/v0.15.0/prov-linux-x86_64.tar.gz"
+      sha256 "55d1538ead87986ce1a353b7aec1243a1418df1d2fd8bbe24ef2d7d300f13508"
     end
   end
 
