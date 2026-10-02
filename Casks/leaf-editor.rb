@@ -1,6 +1,6 @@
 cask "leaf-editor" do
-  version "0.4.12"
-  sha256 "36b71fa600f069ceb57f431e08082e25c1672fb33d8828af42e9f24eb1d123c2"
+  version "0.4.13"
+  sha256 "23981c49207ddd9c913fc3574f46d0e7643c83f37f3583e00fc76c75ca823570"
 
   url "https://github.com/diaryx-org/leaf/releases/download/v#{version}/Leaf-#{version}-aarch64.dmg"
   name "Leaf"
