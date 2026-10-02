@@ -1,28 +1,28 @@
 class Flower < Formula
   desc "Structural terminal editor for JSON, YAML, TOML, ZON, and fig config"
   homepage "https://github.com/diaryx-org/flower"
-  version "0.6.3"
+  version "0.6.4"
   license "MIT OR Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/diaryx-org/flower/releases/download/v0.6.3/flower-macos-arm64.tar.gz"
-      sha256 "6a9b4baf27e1a788b59461d75a05fc3160f1988050b044b6e757994f8d8fdc89"
+      url "https://github.com/diaryx-org/flower/releases/download/v0.6.4/flower-macos-arm64.tar.gz"
+      sha256 "a452be788f6c6db1aa95b2e6cee7716fc2bc8be355dd3487f2536c661e418e73"
     end
     on_intel do
-      url "https://github.com/diaryx-org/flower/releases/download/v0.6.3/flower-macos-x86_64.tar.gz"
-      sha256 "9111ca9e67f2b109f30ee7b4d4087480a9b6c223a6d0f56a94bcf873443cdbbe"
+      url "https://github.com/diaryx-org/flower/releases/download/v0.6.4/flower-macos-x86_64.tar.gz"
+      sha256 "5aa4e40b8235dce2d5509639150c2fb8d6732a6ca422c44a04e175bb48025cc2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/diaryx-org/flower/releases/download/v0.6.3/flower-linux-aarch64.tar.gz"
-      sha256 "c7b49e5f9eb76ef2bfe2416d47389dadf6fb8445c555129f2473f3e06dc35ebd"
+      url "https://github.com/diaryx-org/flower/releases/download/v0.6.4/flower-linux-aarch64.tar.gz"
+      sha256 "2207609586a2acb9574e4b148d1fa08c670108f459798e3ecacc5027677d1d9f"
     end
     on_intel do
-      url "https://github.com/diaryx-org/flower/releases/download/v0.6.3/flower-linux-x86_64.tar.gz"
-      sha256 "cffa4b92e1e40bb64fff6dca62e882628aa7aad2a61ba56709c563b63cc69acf"
+      url "https://github.com/diaryx-org/flower/releases/download/v0.6.4/flower-linux-x86_64.tar.gz"
+      sha256 "7d52117fd78eab9bef9bee6ab937a319302bd7bbe0c8b8d8e9c747dd91bd5d69"
     end
   end
 
