@@ -1,6 +1,6 @@
 cask "thorn-editor" do
-  version "0.1.4"
-  sha256 "1e0db76a87e83db5ee2a11cb9a5fe04d15f4f8a6947c6df29cc0ea94bdec5d5f"
+  version "0.2.0"
+  sha256 "86c2f810fe896e8487f6d61f6478f7a2aa380a00e95797c2d9e846aa4d9d26ff"
 
   url "https://github.com/diaryx-org/thorn/releases/download/v#{version}/Thorn-#{version}-aarch64.dmg"
   name "Thorn"
